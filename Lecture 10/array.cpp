@@ -7,6 +7,8 @@ int main()
 
     int n = sizeof(arr) / sizeof(int);
 
+    cout<<sizeof(arr)<<endl;
+
     for(int i = 0; i<n; i++)
     {
         cout<<arr[i]<<" ";
