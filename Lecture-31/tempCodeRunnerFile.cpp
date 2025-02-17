@@ -1,0 +1,1 @@
+cout<<"Root is = "<<root->data<<endl;
