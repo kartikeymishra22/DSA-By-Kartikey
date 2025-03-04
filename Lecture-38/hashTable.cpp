@@ -13,8 +13,11 @@ class Node{
             this->key = key;
             this->value = value;
             next = NULL;
+
+
         }
 
+        // constructor
         ~Node(){
             if(next!=NULL){
                 delete next;
