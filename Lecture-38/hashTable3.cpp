@@ -1,31 +1,32 @@
 #include<iostream>
 #include<vector>
+#include<string>
 using namespace std;
 
-template<typename T>
+template<typename T, typename V>
 class Node{
     public:
     T key;
-    T value;
-    Node* next;
+    V value;
+    Node<T,V>* next;
 
-    Node(T key, T value){
+    Node(T key, V value){
         this->key = key;
         this->value = value;
-        next = NULL:
+        next = NULL;
     }
 };
-template<typename T>
+template<typename T, typename V>
 class HashTable{
     int totalsize;
     int currsize;
-    Node<T>** table;
+    Node<T,V>** table;
 
     public:
     HashTable(int size=5){
         totalsize = size;
-        currsize = size;
-        table = new Node*[totalsize];
+        currsize = 0;
+        table = new Node<T,V>*[totalsize];
 
         for(int i = 0; i<totalsize; i++){
             table[i] = NULL;
@@ -34,7 +35,7 @@ class HashTable{
 };
 
 int main(){
-    HashTable<string> ht();
+    HashTable<string, int> ht;
 
     return 0;
 }

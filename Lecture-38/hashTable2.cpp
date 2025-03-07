@@ -31,6 +31,14 @@ public:
       for(int i = 0; i<totalSize; i++){
         table[i] = NULL;
       }
+   }
+   void insert(string key , int value){
+
+   }
+   void remove(string key){
+
+   }
+   int search(string key){
 
    }
 };
