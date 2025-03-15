@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{46052975-292F-2911-FCA3-D223E8E9D94B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="lecture 10\array.cpp" />
+    <ClCompile Include="lecture 10\binarySearch.cpp" />
+    <ClCompile Include="lecture 10\inputArray.cpp" />
+    <ClCompile Include="lecture 10\maximumArray.cpp" />
+    <ClCompile Include="lecture 10\tempCodeRunnerFile.cpp" />
+    <ClCompile Include="lecture 11\maxSubarray.cpp" />
+    <ClCompile Include="lecture 11\Subarray.cpp" />
+    <ClCompile Include="lecture 12\bubbleSort.cpp" />
+    <ClCompile Include="lecture 12\insertionSort.cpp" />
+    <ClCompile Include="lecture 12\practice ques\descBubbleSort.cpp" />
+    <ClCompile Include="lecture 12\practice ques\descInsertionSort.cpp" />
+    <ClCompile Include="lecture 12\practice ques\descSelectionsort.cpp" />
+    <ClCompile Include="lecture 12\selectionSort.cpp" />
+    <ClCompile Include="lecture 13\1SearchIndex.cpp" />
+    <ClCompile Include="lecture 13\1spiralMatrix.cpp" />
+    <ClCompile Include="lecture 13\2Darray.cpp" />
+    <ClCompile Include="lecture 13\inputAndoutput.cpp" />
+    <ClCompile Include="lecture 13\SearchinSortedMatrix.cpp" />
+    <ClCompile Include="lecture 13\spiralMatrix.cpp" />
+    <ClCompile Include="lecture 14\reversechar.cpp" />
+    <ClCompile Include="lecture 14\toLowercase.cpp" />
+    <ClCompile Include="lecture 14\toUppercase.cpp" />
+    <ClCompile Include="lecture 14\validPalindrome.cpp" />
+    <ClCompile Include="lecture 15\sumpair.cpp" />
+    <ClCompile Include="lecture 16\1.cpp" />
+    <ClCompile Include="lecture 16\1powerOf2.cpp" />
+    <ClCompile Include="lecture 16\clearIthbit.cpp" />
+    <ClCompile Include="lecture 16\getItnbit.cpp" />
+    <ClCompile Include="lecture 16\oddOrEven.cpp" />
+    <ClCompile Include="lecture 16\powerOf2.cpp" />
+    <ClCompile Include="lecture 16\setIthbit.cpp" />
+    <ClCompile Include="lecture 16\updateIthbit.cpp" />
+    <ClCompile Include="lecture 17\class.cpp" />
+    <ClCompile Include="lecture 17\class1.cpp" />
+    <ClCompile Include="lecture 17\class2.cpp" />
+    <ClCompile Include="lecture 17\practice.cpp" />
+    <ClCompile Include="lecture 18\1.cpp" />
+    <ClCompile Include="lecture 18\operatorOverloading.cpp" />
+    <ClCompile Include="lecture 18\practice ques\1.cpp" />
+    <ClCompile Include="lecture 18\practice ques\2.cpp" />
+    <ClCompile Include="lecture 18\practice ques\3.cpp" />
+    <ClCompile Include="lecture 18\practice ques\4.cpp" />
+    <ClCompile Include="lecture 18\practice ques\5.cpp" />
+    <ClCompile Include="lecture 18\practice ques\6.cpp" />
+    <ClCompile Include="lecture 19\1.cpp" />
+    <ClCompile Include="lecture 19\arrayIssorted.cpp" />
+    <ClCompile Include="lecture 19\fact.cpp" />
+    <ClCompile Include="lecture 19\firstOccu.cpp" />
+    <ClCompile Include="lecture 19\LastOccur.cpp" />
+    <ClCompile Include="lecture 19\nthFibonacci.cpp" />
+    <ClCompile Include="lecture 19\numberInDecreasingOrder.cpp" />
+    <ClCompile Include="lecture 19\practice ques\1.cpp" />
+    <ClCompile Include="lecture 19\practice ques\arraySorted.cpp" />
+    <ClCompile Include="lecture 19\practice ques\decreasing.cpp" />
+    <ClCompile Include="lecture 19\practice ques\Decreasing1.cpp" />
+    <ClCompile Include="lecture 19\practice ques\fact.cpp" />
+    <ClCompile Include="lecture 19\practice ques\firstOccurance.cpp" />
+    <ClCompile Include="lecture 19\practice ques\nthfib.cpp" />
+    <ClCompile Include="lecture 19\practice ques\sum.cpp" />
+    <ClCompile Include="lecture 19\practice ques\sumOfFibnumbers.cpp" />
+    <ClCompile Include="lecture 19\practice ques\sumOfNaturalNumbers.cpp" />
+    <ClCompile Include="lecture 19\practice ques\tempCodeRunnerFile.cpp" />
+    <ClCompile Include="lecture 19\sumOfNnumbers.cpp" />
+    <ClCompile Include="lecture 19\xPowerN.cpp" />
+    <ClCompile Include="lecture 1\evenOrodd.cpp" />
+    <ClCompile Include="lecture 1\LargestNumbers.cpp" />
+    <ClCompile Include="lecture 1\multiple.cpp" />
+    <ClCompile Include="lecture 1\naturalnubers.cpp" />
+    <ClCompile Include="lecture 1\sum.cpp" />
+    <ClCompile Include="lecture 1\sumNaturalnumbers.cpp" />
+    <ClCompile Include="lecture 20\binaryString.cpp" />
+    <ClCompile Include="lecture 20\friendsPairing.cpp" />
+    <ClCompile Include="lecture 20\string.cpp" />
+    <ClCompile Include="lecture 20\tilingProblem.cpp" />
+    <ClCompile Include="lecture 21\binarySearch.cpp" />
+    <ClCompile Include="lecture 21\linerSearch.cpp" />
+    <ClCompile Include="lecture 21\mergeSort.cpp" />
+    <ClCompile Include="lecture 21\quickSort.cpp" />
+    <ClCompile Include="lecture 24\1.cpp" />
+    <ClCompile Include="lecture 24\2.cpp" />
+    <ClCompile Include="lecture 24\backtrackOn.cpp" />
+    <ClCompile Include="lecture 24\BacktrackOnArray.cpp" />
+    <ClCompile Include="lecture 24\gridWays.cpp" />
+    <ClCompile Include="lecture 24\nQueens.cpp" />
+    <ClCompile Include="lecture 24\nQueens1.cpp" />
+    <ClCompile Include="lecture 24\permutations.cpp" />
+    <ClCompile Include="lecture 24\subset.cpp" />
+    <ClCompile Include="lecture 24\subset1.cpp" />
+    <ClCompile Include="lecture 24\sudokuSolver.cpp" />
+    <ClCompile Include="lecture 24\tempCodeRunnerFile.cpp" />
+    <ClCompile Include="lecture 24\trackonArray.cpp" />
+    <ClCompile Include="lecture 25\list.cpp" />
+    <ClCompile Include="lecture 25\ll.cpp" />
+    <ClCompile Include="lecture 25\ll1.cpp" />
+    <ClCompile Include="lecture 2\costs.cpp" />
+    <ClCompile Include="lecture 2\macros.cpp" />
+    <ClCompile Include="lecture 2\square.cpp" />
+    <ClCompile Include="lecture 4\incomeTax.cpp" />
+    <ClCompile Include="lecture 4\largest.cpp" />
+    <ClCompile Include="lecture 4\oddOrevev.cpp" />
+    <ClCompile Include="lecture 5\practice ques\amstrongNumber.cpp" />
+    <ClCompile Include="lecture 5\practice ques\factorial.cpp" />
+    <ClCompile Include="lecture 5\practice ques\fibo.cpp" />
+    <ClCompile Include="lecture 5\practice ques\multiplicationTable.cpp" />
+    <ClCompile Include="lecture 5\practice ques\prime.cpp" />
+    <ClCompile Include="lecture 5\prime.cpp" />
+    <ClCompile Include="lecture 6\floyed.cpp" />
+    <ClCompile Include="lecture 6\Halfpyramid.cpp" />
+    <ClCompile Include="lecture 6\Hollowrectangle.cpp" />
+    <ClCompile Include="lecture 6\invertedPyramid.cpp" />
+    <ClCompile Include="lecture 6\invertedStar.cpp" />
+    <ClCompile Include="lecture 7\oddOreven.cpp" />
+    <ClCompile Include="lecture 7\palindrome.cpp" />
+    <ClCompile Include="lecture 7\practice\12.cpp" />
+    <ClCompile Include="lecture 7\practice\decTobin.cpp" />
+    <ClCompile Include="lecture 7\practice\ist.cpp" />
+    <ClCompile Include="lecture 7\practice\sumOfoddEven.cpp" />
+    <ClCompile Include="lecture 7\prime.cpp" />
+    <ClCompile Include="lecture 7\product.cpp" />
+    <ClCompile Include="lecture 7\sumOfdigit.cpp" />
+    <ClCompile Include="lecture-26\list.cpp" />
+    <ClCompile Include="lecture-27\pushAtBottom.cpp" />
+    <ClCompile Include="lecture-27\stack.cpp" />
+    <ClCompile Include="lecture-27\stack1.cpp" />
+    <ClCompile Include="lecture-29\queue.cpp" />
+    <ClCompile Include="lecture-29\queueUsingLL.cpp" />
+    <ClCompile Include="lecture-29\reverseQueue.cpp" />
+    <ClCompile Include="lecture-29\stackUsingTwoQueue.cpp" />
+    <ClCompile Include="lecture-30\activitySelection.cpp" />
+    <ClCompile Include="lecture-30\minAbsDiff.cpp" />
+    <ClCompile Include="lecture-31\buildBinaryTree.cpp" />
+    <ClCompile Include="lecture-31\buildBinaryTree1.cpp" />
+    <ClCompile Include="lecture-31\buildbinaryTree2.cpp" />
+    <ClCompile Include="lecture-31\preOrder.cpp" />
+    <ClCompile Include="lecture-31\tempCodeRunnerFile.cpp" />
+    <ClCompile Include="lecture-32\diameterOfTree.cpp" />
+    <ClCompile Include="lecture-32\diameterOfTreeApp2.cpp" />
+    <ClCompile Include="lecture-32\mapDemo.cpp" />
+    <ClCompile Include="lecture-32\subtreeInTree.cpp" />
+    <ClCompile Include="lecture-32\topView.cpp" />
+    <ClCompile Include="lecture-33\LCA.cpp" />
+    <ClCompile Include="lecture-34\buildBST.cpp" />
+    <ClCompile Include="lecture-36\pqForObjects.cpp" />
+    <ClCompile Include="lecture-36\priority_queue.cpp" />
+    <ClCompile Include="lecture-37\heapSort.cpp" />
+    <ClCompile Include="lecture-38\hashTable.cpp" />
+    <ClCompile Include="lecture-38\hashTable1.cpp" />
+    <ClCompile Include="lecture-38\hashTable2.cpp" />
+    <ClCompile Include="lecture-38\hashTable3.cpp" />
+    <ClCompile Include="lecture-38\pairSum.cpp" />
+    <ClCompile Include="lecture-38\tempCodeRunnerFile.cpp" />
+    <ClCompile Include="lecture-38\unordered_set.cpp" />
+    <ClCompile Include="lecture-38\unordere_map.cpp" />
+    <ClCompile Include="lecture-39\countDistinct.cpp" />
+    <ClCompile Include="lecture-39\largestSubarrayWithSum0.cpp" />
+    <ClCompile Include="lecture-39\majorityElement.cpp" />
+    <ClCompile Include="lecture-39\majorityElemet1.cpp" />
+    <ClCompile Include="lecture-39\tempCodeRunnerFile.cpp" />
+    <ClCompile Include="lecture-39\unionArr.cpp" />
+    <ClCompile Include="lecture-39\validAnagram.cpp" />
+    <ClCompile Include="lecture-40\builtTrie.cpp" />
+    <ClCompile Include="lecture-40\builtTrie1.cpp" />
+    <ClCompile Include="lecture-40\longestWord.cpp" />
+    <ClCompile Include="lecture-40\prefix.cpp" />
+    <ClCompile Include="lecture-40\startsWithPrefix.cpp" />
+    <ClCompile Include="lecture-40\wordBreakProblem.cpp" />
+    <ClCompile Include="lecture-41\BFS.cpp" />
+    <ClCompile Include="lecture-41\buildGraph.cpp" />
+    <ClCompile Include="lecture-41\main.cpp" />
+    <ClCompile Include="lecture-41\tempCodeRunnerFile.cpp" />
+    <ClCompile Include="lecture-41\weightedGraph.cpp" />
+    <ClCompile Include="lecture-42\bipartiteGraph.cpp" />
+    <ClCompile Include="lecture-42\cycleDetectionDirected.cpp" />
+    <ClCompile Include="lecture-42\disconnectedComponenets.cpp" />
+    <ClCompile Include="lecture-43\KahnsAlgorithm.cpp" />
+    <ClCompile Include="lecture-43\toologicalSortingDFS.cpp" />
+    <ClCompile Include="lecture-44\dijkstraAlgorithm.cpp" />
+    <ClCompile Include="lecture-44\edgeListImplementation.cpp" />
+    <ClCompile Include="lecture-44\primsAlgorithm.cpp" />
+    <ClCompile Include="lecture-44\wightedGraph.cpp" />
+    <ClCompile Include="lecture-45\cheapestFlights.cpp" />
+    <ClCompile Include="oops concept\class.cpp" />
+    <ClCompile Include="oops concept\encapsulation.cpp" />
+    <ClCompile Include="oops concept\Hero.cpp" />
+    <ClCompile Include="oops concept\list.cpp" />
+    <ClCompile Include="oops concept\list1.cpp" />
+    <ClCompile Include="pattern questions\pyramid.cpp" />
+    <ClCompile Include="practice ques\amsNumber.cpp" />
+    <ClCompile Include="practice ques\clearlastIbits.cpp" />
+    <ClCompile Include="practice ques\countsetbits.cpp" />
+    <ClCompile Include="practice ques\evenOrodd.cpp" />
+    <ClCompile Include="practice ques\Fact.cpp" />
+    <ClCompile Include="practice ques\largest.cpp" />
+    <ClCompile Include="practice ques\lecture 15\2Darray.cpp" />
+    <ClCompile Include="practice ques\lecture 15\2dArray1.cpp" />
+    <ClCompile Include="practice ques\lecture 15\2dVector.cpp" />
+    <ClCompile Include="practice ques\lecture 15\2dvector1.cpp" />
+    <ClCompile Include="practice ques\lecture 15\dynamicArray.cpp" />
+    <ClCompile Include="practice ques\lecture 15\memoeryAllocation.cpp" />
+    <ClCompile Include="practice ques\lecture 15\pairsum.cpp" />
+    <ClCompile Include="practice ques\lecture 15\paiSum1.cpp" />
+    <ClCompile Include="practice ques\lecture 16\clearIthbit.cpp" />
+    <ClCompile Include="practice ques\lecture 16\getIthbit.cpp" />
+    <ClCompile Include="practice ques\lecture 16\oddOreven.cpp" />
+    <ClCompile Include="practice ques\lecture 16\powerOf2.cpp" />
+    <ClCompile Include="practice ques\lecture 16\setIthbit.cpp" />
+    <ClCompile Include="practice ques\lecture 16\updateIthbit.cpp" />
+    <ClCompile Include="practice ques\multiple.cpp" />
+    <ClCompile Include="practice ques\practice.cpp" />
+    <ClCompile Include="practice ques\prime.cpp" />
+    <ClCompile Include="revision\array\subArray.cpp" />
+    <ClCompile Include="revision\linear search\1.cpp" />
+    <ClCompile Include="revision\linear search\2.cpp" />
+    <ClCompile Include="revision\reverse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="revision\linear search\index.html" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

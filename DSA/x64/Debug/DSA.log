@@ -1,0 +1,158 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of binarySearch.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 10\binarySearch.cpp, lecture 21\binarySearch.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of tempCodeRunnerFile.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 10\tempCodeRunnerFile.cpp, lecture 19\practice ques\tempCodeRunnerFile.cpp, lecture 24\tempCodeRunnerFile.cpp, lecture-31\tempCodeRunnerFile.cpp, lecture-38\tempCodeRunnerFile.cpp, lecture-39\tempCodeRunnerFile.cpp, lecture-41\tempCodeRunnerFile.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of Subarray.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 11\Subarray.cpp, revision\array\subArray.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of 2Darray.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 13\2Darray.cpp, practice ques\lecture 15\2Darray.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of 1.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 16\1.cpp, lecture 18\1.cpp, lecture 18\practice ques\1.cpp, lecture 19\1.cpp, lecture 19\practice ques\1.cpp, lecture 24\1.cpp, revision\linear search\1.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of clearIthbit.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 16\clearIthbit.cpp, practice ques\lecture 16\clearIthbit.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of oddOrEven.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 16\oddOrEven.cpp, lecture 7\oddOreven.cpp, practice ques\lecture 16\oddOreven.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of powerOf2.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 16\powerOf2.cpp, practice ques\lecture 16\powerOf2.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of setIthbit.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 16\setIthbit.cpp, practice ques\lecture 16\setIthbit.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of updateIthbit.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 16\updateIthbit.cpp, practice ques\lecture 16\updateIthbit.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of class.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 17\class.cpp, oops concept\class.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of practice.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 17\practice.cpp, practice ques\practice.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of 2.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 18\practice ques\2.cpp, lecture 24\2.cpp, revision\linear search\2.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of fact.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 19\fact.cpp, lecture 19\practice ques\fact.cpp, practice ques\Fact.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of sum.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 19\practice ques\sum.cpp, lecture 1\sum.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of evenOrodd.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 1\evenOrodd.cpp, practice ques\evenOrodd.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of multiple.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 1\multiple.cpp, practice ques\multiple.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of list.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 25\list.cpp, lecture-26\list.cpp, oops concept\list.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of largest.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 4\largest.cpp, practice ques\largest.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of prime.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture 5\practice ques\prime.cpp, lecture 5\prime.cpp, lecture 7\prime.cpp, practice ques\prime.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of pairSum.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lecture-38\pairSum.cpp, practice ques\lecture 15\pairsum.cpp.
+  array.cpp
+  binarySearch.cpp
+  inputArray.cpp
+  maximumArray.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 10\inputArray.cpp(10,13): error C2131: expression did not evaluate to a constant
+      C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 10\inputArray.cpp(10,13):
+      failure was caused by a read of a variable outside its lifetime
+      C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 10\inputArray.cpp(10,13):
+      see usage of 'n'
+  
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 10\inputArray.cpp(16,12): warning C4552: '>>': result of expression not used
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 10\inputArray.cpp(21,21): warning C4552: '<<': result of expression not used
+  tempCodeRunnerFile.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 10\tempCodeRunnerFile.cpp(1,16): error C2065: 'arr': undeclared identifier
+  maxSubarray.cpp
+  Subarray.cpp
+  bubbleSort.cpp
+  insertionSort.cpp
+  descBubbleSort.cpp
+  descInsertionSort.cpp
+  descSelectionsort.cpp
+  selectionSort.cpp
+  1SearchIndex.cpp
+  1spiralMatrix.cpp
+  2Darray.cpp
+  inputAndoutput.cpp
+  SearchinSortedMatrix.cpp
+  spiralMatrix.cpp
+  reversechar.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 14\reversechar.cpp(19,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  toLowercase.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 14\toLowercase.cpp(21,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  toUppercase.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 14\toUppercase.cpp(20,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  validPalindrome.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 14\validPalindrome.cpp(25,30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  sumpair.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 15\sumpair.cpp(6,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  1.cpp
+  1powerOf2.cpp
+  clearIthbit.cpp
+  getItnbit.cpp
+  oddOrEven.cpp
+  powerOf2.cpp
+  setIthbit.cpp
+  updateIthbit.cpp
+  class.cpp
+  class1.cpp
+  class2.cpp
+  practice.cpp
+  1.cpp
+  operatorOverloading.cpp
+  1.cpp
+  2.cpp
+  Generating Code...
+  Compiling...
+  3.cpp
+  4.cpp
+  5.cpp
+  6.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 18\practice ques\6.cpp(38,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  1.cpp
+  arrayIssorted.cpp
+  fact.cpp
+  firstOccu.cpp
+  LastOccur.cpp
+  nthFibonacci.cpp
+  numberInDecreasingOrder.cpp
+  1.cpp
+  arraySorted.cpp
+  decreasing.cpp
+  Decreasing1.cpp
+  fact.cpp
+  firstOccurance.cpp
+  nthfib.cpp
+  sum.cpp
+  sumOfFibnumbers.cpp
+  Generating Code...
+  Compiling...
+  sumOfNaturalNumbers.cpp
+  tempCodeRunnerFile.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 19\practice ques\tempCodeRunnerFile.cpp(1,20): error C2065: 'vector': undeclared identifier
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 19\practice ques\tempCodeRunnerFile.cpp(1,27): error C2062: type 'int' unexpected
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 19\practice ques\tempCodeRunnerFile.cpp(1,55): error C2143: syntax error: missing ';' before '{'
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 19\practice ques\tempCodeRunnerFile.cpp(1,55): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 19\practice ques\tempCodeRunnerFile.cpp(5,1): error C1004: unexpected end-of-file found
+  sumOfNnumbers.cpp
+  xPowerN.cpp
+  evenOrodd.cpp
+  LargestNumbers.cpp
+  multiple.cpp
+  naturalnubers.cpp
+  sum.cpp
+  sumNaturalnumbers.cpp
+  binaryString.cpp
+  friendsPairing.cpp
+  string.cpp
+  tilingProblem.cpp
+  binarySearch.cpp
+  linerSearch.cpp
+  mergeSort.cpp
+  quickSort.cpp
+  1.cpp
+  2.cpp
+  Generating Code...
+  Compiling...
+  backtrackOn.cpp
+  BacktrackOnArray.cpp
+  gridWays.cpp
+  nQueens.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 24\nQueens.cpp(6,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 24\nQueens.cpp(18,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 24\nQueens.cpp(53,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  nQueens1.cpp
+  permutations.cpp
+  subset.cpp
+  subset1.cpp
+  sudokuSolver.cpp
+  tempCodeRunnerFile.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 24\tempCodeRunnerFile.cpp(1,10): error C2065: 'arr': undeclared identifier
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 24\tempCodeRunnerFile.cpp(1,14): error C2065: 'n': undeclared identifier
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 24\tempCodeRunnerFile.cpp(1,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 24\tempCodeRunnerFile.cpp(1,9): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+      C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 24\tempCodeRunnerFile.cpp(1,9):
+      The initializer contains too many elements
+  
+  trackonArray.cpp
+  list.cpp
+  ll.cpp
+C:\Users\karti\OneDrive\Desktop\DSA By Kartikey\lecture 25\ll.cpp(27,10): warning C4930: 'List ll(void)': prototyped function not called (was a variable definition intended?)
+  ll1.cpp
+  costs.cpp
+  macros.cpp
+  square.cpp
+MSBUILD : error MSB4166: Child node "2" exited prematurely. Shutting down. Diagnostic information may be found in files in "C:\Users\karti\AppData\Local\Temp\MSBuildTemp\" and will be named MSBuild_*.failure.txt. This location can be changed by setting the MSBUILDDEBUGPATH environment variable to a different directory.
