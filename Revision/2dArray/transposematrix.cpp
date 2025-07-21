@@ -12,7 +12,7 @@ void toPrint(int arr[][2], int row, int col){
 }
 
 void transposeMatrix(int arr[][3], int row, int col){
-    int transpose[3][2]; // Adjust size based on the input matrix
+    int transpose[3][2]; // Adjust size based on the input matri
     for(int i = 0; i < row; i++){
         for(int j = 0; j < col; j++){
             transpose[j][i] = arr[i][j];
